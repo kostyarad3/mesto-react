@@ -1,6 +1,7 @@
 {
   "name": "mesto-react",
   "version": "0.1.0",
+  "homepage": "https://kostyarad3.github.io/mesto-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,8 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-    
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  
-  "homepage": "https://kostyarad3.github.io/mesto-react/"
+  }
 }
