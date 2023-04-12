@@ -9,7 +9,7 @@ function Card(props) {
         <img 
         onClick={handleClick}
         src={props.card.link}
-        alt={props.name} 
+        alt={props.card.name} 
         className="place__image"/>
         <button className="button place__delete" type="button" aria-label="Удалить"></button>
         <div className="place__content">
