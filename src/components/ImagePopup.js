@@ -1,10 +1,11 @@
 function ImagePopup (props) {
+console.log(props)
   return (
-    <div className={`popup popup_type_place ${props.card ? 'popup_opened' : ''}`}>
+    <div className={`popup popup_type_place ${props.card.name ? 'popup_opened' : ''}`}>
       <figure className="popup__content">
         <img 
-        src={props.card ? props.card.link : ''} 
-        alt={props.card ? props.card.name : ''} 
+        src={props.card.name ? props.card.link : ''} 
+        alt={props.card.name ? props.card.name : ''} 
         className="popup__image"/>
         <figcaption className="popup__caption">{props.card ? props.card.name : ''}</figcaption>
         <button 
